@@ -1,0 +1,441 @@
+
+body{padding-bottom:300px;}
+.con1170 {
+    width: 1170px;
+    margin: 0 auto;
+}
+
+.header {
+    width: 100%;
+    height: 32px;
+    background:#f9f9f9;
+    border-top: 1px solid #ddd;
+    border-bottom: 1px solid #ddd;
+}
+
+.header .nav {
+    height: 30px;
+    font-size: 12px;
+}
+.header .nav a{
+    display:inline-block;
+    vertical-align: top;
+    width:100%;
+    height:100%;
+}
+/*navLeft*/
+.header .navLeft{
+    float: left;
+}
+.header .navLeft li,.header .navRight li{
+    float:left;
+    line-height: 30px;
+}
+ .nav-collect{
+    width:58px;
+    height:100%;
+    background:url("../images/pic0star0.png") no-repeat 0 center;
+    padding-left:16px;
+    padding-right:12px;
+}
+ .nav-collect:hover{
+     background:url("../images/pic0star.png") no-repeat 0 center;
+ }
+ .nav-login{
+    width:34px;
+    height:100%;
+    padding-left:5px;
+    padding-right:5px;
+}
+ .nav-register{
+    width:26px;
+    height:100%;
+    padding-left:9px;
+    padding-right:9px;
+}
+ .nav-phone{
+    width:92px;
+    height:100%;
+    padding-left:10px;
+}
+ .nav-phone i{
+    display:inline-block;
+    vertical-align: top;
+    width:10px;
+     height:12px;
+    background:url(../images/pic0phone.png) no-repeat 0 0;
+    margin-top:9px;
+    margin-right:3px;
+     margin-left:10px;
+}
+ .triangle{
+    display:inline-block;
+    vertical-align: top;
+    width:6px;
+    height:3px;
+    background:url(../images/pic0phone.png) no-repeat 0 -14px;
+    margin-top:14px;
+    margin-left:7px;
+}
+
+
+ /* navRight  */
+.header .nav .navRight{
+    float:right;
+    width:594px;
+
+}
+.header .nav .navRight li {
+    position:relative;
+    padding-left:12px;
+    padding-right:13px;
+}
+.header .nav .navRight li .line{
+    position:absolute;
+    top:0;
+    right:0;
+}
+.header .nav .navRight li.shop{
+    padding-left:34px;
+}
+.num{
+    color:#f86177;
+}
+.car{
+    position:absolute;
+    left:12px;
+    top:10px;
+    width:12px;
+    height:10px;
+    background:url("../images/pic0phone.png") no-repeat 0 -19px;
+
+}
+
+/* imgTop  */
+.imgTop{
+    height:60px;
+}
+.imgTop .pic{
+    display: inline-block;
+    width:100%;
+    height:100%;
+
+}
+
+/* mid logo */
+.mid{
+    height:106px;
+}
+.mid .mid-left{
+    float:left;
+}
+.mid .mid-left .logo{
+    float: left;
+    width:82px;
+    height:54px;
+    margin:20px 10px 30px 0;
+}
+.mid .mid-left .logo img{
+    width:100%;
+    height:100%;
+}
+.mid .mid-left .address{
+    float: left;
+    padding-top:22px;
+}
+.mid .mid-left .address h3{
+    font-size:18px;
+    margin-bottom:2px;
+}
+.mid .mid-left .address .change{
+    padding:4px 6px;
+    border:1px solid #eee;
+    color:#999;
+    font-size:12px;
+}
+
+/*mid-mid*/
+.mid .mid-mid{
+    position:relative;
+    float:left;
+    margin:20px 156px 12px 170px;
+    width:488px;
+    height:42px;
+   line-height: 42px;
+    font-size: 12px;
+ }
+.mid .mid-shopping {
+    position:absolute;
+    left:-2px;
+    top:3px;
+    width:62px;
+    height:38px;
+    line-height: 38px;
+    color:#666;
+    border-right:1px solid #ddd;
+}
+.mid .mid-shopping span{
+    float:left;
+    margin-left:15px;
+}
+.mid .mid-shopping i{
+    float: right;
+    width:6px;
+    height:3px;
+    background:url('../images/pic0phone.png') no-repeat 0 -14px;
+    margin-right:7px;
+    margin-top:17px;
+}
+.mid input[type=text]{
+    padding-left: 68px;
+    width:353px;
+    height:38px;
+    border:2px solid #2bb8aa;
+    border-right:none;
+}
+
+.mid input[type=button]{
+    width:65px;
+    height:42px;
+    background:#2bb8aa;
+    color:#FFFFFF;
+}
+
+
+.mid .mid-right{
+    float:right;
+}
+
+.mid .mid-right li{
+    float:left;
+    margin-left:20px;
+    margin-top:30px;
+    font-size:12px;
+}
+.mid .mid-right span{
+    display:block;
+    width:24px;
+    height:24px;
+    background:url('../images/pic0phone.png') no-repeat center;
+}
+.mid .mid-right .list1 span{
+    background-position:0 -32px;
+    margin-left:7px;
+    margin-bottom:4px;
+}
+.mid .mid-right .list2 span{
+    background-position:0 -58px;
+    margin-left:19px;
+    margin-bottom:4px;
+}
+.mid .mid-right .list3 span{
+    background-position:0 -84px;
+    margin-left:7px;
+    margin-bottom:4px;
+}
+
+/* menu    */
+.menu{
+    height:40px;
+    line-height: 40px;
+    background:#2bb8aa
+}
+.menu-left{
+    width:246px;
+    background:#1caf9a;
+    float: left;
+}
+.menu-left li{
+    margin-left:15px;
+    color:#ffffff;
+
+}
+.menu-right{
+    width:924px;
+    font-size:16px;
+    font-weight: 700;
+    float: left;
+}
+.menu-right li{
+    float:left;
+}
+.menu-right li a{
+    color:#fff;
+    display: inline-block;
+    vertical-align: top;
+    padding:0 23px;
+    height: 40px;
+    line-height: 40px
+
+ }
+.menu-right li a:hover{
+      background:#00c3b0;
+}
+
+/*content*/
+.content{
+    height:478px;
+}
+.content-left{
+    float:left;
+    width:244px;
+    height:477px;
+    border:1px solid #eeeeee;
+    border-top:none;
+    background:#fafafa;
+}
+.content-left .content-left-c{
+    height:52px;
+    line-height: 52px;
+}
+.content-left .content-left-c .c-l{
+    margin:0 10px;
+    margin-top:-1px;
+
+}
+.content-left .content-left-c .c-l a,.content-left .c-l i{
+    display: block;
+    float: left;
+}
+.content-left .content-left-c .c-l .c-l1{
+    border-top:1px solid #eee;
+    margin:0 4px;
+
+}
+.content-left .content-left-c .c-l .c-l1 .c-l1-l{
+    font-size: 14px;
+    font-weight: 700;
+    color:#333333;
+    float:left;
+}
+
+.content-left .content-left-c .c-l .c-l1-r{
+    float: right;
+    font-size: 12px;
+
+}
+.content-left .c-l .c-l1-r a{
+    display: inline-block;
+    margin-right:5px;
+    color: #999;
+}
+.content-left .c-l .c-l1-r .c-arrow{
+    display: inline-block;
+    width:8px;
+    height:12px;
+    margin-top:21px ;
+    background:url('../images/pic0log雪碧图.png') no-repeat 0 0;
+
+}
+
+
+
+
+/**/
+
+.content-center{float:left;width:692px; padding:0 18px; color:#999;}
+.content-center dl{width:100%;height:52px; line-height:52px; border-bottom:1px dashed #ccc;}
+.content-center dt{float:left; width:60px; background:url("../images/fire.png") no-repeat 0 center; padding-left:19px; }
+.content-center dd{float:left; padding:0 12px; }
+.content-center dd a{display: inline-block; vertical-align: top; width:100%; height:100%; color:#666; }
+.content-center dd a img{display:inline-block; width:100%; height:232px;}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

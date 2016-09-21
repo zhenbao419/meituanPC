@@ -1,0 +1,33 @@
+/*公共样式*/
+*{
+    margin:0;
+    padding:0;
+}
+ul,li{
+    list-style: none;
+}
+a{
+    text-decoration: none;
+    background-color:transparent;
+    color:#000;
+}
+a img{
+    vertical-align: top;
+}
+body{
+    font: 400 14px/1.5 "Hiragino Sans GB","WenQuanYi Micro Hei",tahoma,sans-serif;
+}
+.clear:after{
+    display:block;
+    height:0;
+    content:"";
+    clear:both;
+}
+i,em,b,strong{
+    font-style: normal;
+}
+input{
+    outline: none;
+    border:none;
+}
+
